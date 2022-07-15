@@ -1,0 +1,12 @@
+footer {
+    background: linear-gradient(1800deg, #102347 0%, #181818 100%);
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsmeta-logo-container p {
+    font-size: 20px;
+    font-weight: 300;
+}
