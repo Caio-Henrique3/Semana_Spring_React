@@ -8,7 +8,9 @@ import NotificationButton from "../NotificationButton";
 import './styles.css';
 
 function SalesCard() {
-    const [dataInicial, setDataInicial] = useState(new Date());
+    const x = new Date();
+    x.setFullYear(x.getFullYear() - 1);
+    const [dataInicial, setDataInicial] = useState(x);
     const [dataFinal, setDataFinal] = useState(new Date());
     const [sales, setSales] = useState<Sale[]>([]);
 
